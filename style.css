@@ -114,13 +114,20 @@ body {
 }
 
 .box {
-    height: 9.55rem;
+    height: 9rem;
     background-color: #232323;
     border-radius: 1rem;
     margin: 0.5rem 0 1.8rem 0;
     padding: 1rem 1.25rem;
 }
 
+.two {
+    height: 10rem;
+    background-color: #232323;
+    border-radius: 1rem;
+    margin: 0.5rem 0 1.8rem 0;
+    padding: 1rem 1.25rem;
+}
 .box-p1 {
     font-size: 1rem;
     font-weight: bold
