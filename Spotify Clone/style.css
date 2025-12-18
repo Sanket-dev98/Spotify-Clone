@@ -287,13 +287,13 @@ body {
     appearance: none;
     background-color: transparent;
     cursor: pointer;
-} 
+}
 
 .progress-range::-webkit-slider-runnable-track {
     background-color: #ddd;
     border-radius: 100px;
     height: 0.2rem;
-} 
+}
 
 .progress-range::-webkit-slider-thumb {
     appearance: none;
@@ -302,7 +302,7 @@ body {
     background-color: #1bd760;
     border-radius: 50%;
     margin-top: -7px;
-} 
+}
 
 .album {
     display: flex;
