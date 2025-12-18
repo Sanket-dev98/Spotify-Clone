@@ -273,6 +273,7 @@ body {
 }
 .controls {
     width: 25%;
+    justify-content: flex-end;
 }
 
 .playback-bar {
@@ -286,13 +287,13 @@ body {
     appearance: none;
     background-color: transparent;
     cursor: pointer;
-}
+} 
 
 .progress-range::-webkit-slider-runnable-track {
     background-color: #ddd;
     border-radius: 100px;
     height: 0.2rem;
-}
+} 
 
 .progress-range::-webkit-slider-thumb {
     appearance: none;
@@ -300,8 +301,8 @@ body {
     width: 1rem;
     background-color: #1bd760;
     border-radius: 50%;
-    margin-top: -6px;
-}
+    margin-top: -7px;
+} 
 
 .album {
     display: flex;
@@ -346,6 +347,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 1rem;
 }
 
 .volume-progress {
@@ -360,3 +362,4 @@ body {
     border-radius: 50%;
     margin-top: -5px;
 }
+
